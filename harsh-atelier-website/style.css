@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Italiana";
+    src: url("fonts/Italiana-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lora";
+    src: url("fonts/Lora-VariableFont_wght.ttf");
+}
+
+/* APPLY FONTS */
+
+body {
+    font-family: "Lora", serif;
+}
+
+h1,
+h2 {
+    font-family: "Italiana", serif;
+}
+
+/* RESET */
+body {
+    margin: 0;
+    background: #FAFAFA;
+    font-family: "Lora", serif;
+
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+
+    height: 100dvh;
+}
+
+/* COMMON */
+.container {
+    padding: 20px;
+}
+
+/* LANDING */
+.landing {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    min-width: 100vw;
+    height: 100dvh;
+    flex-shrink: 0;
+}
+
+.landing .container {
+    text-align: center;
+}
+
+.landing img {
+    width: 220px;
+    margin: 20px 0;
+}
+
+.scroll-text {
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+/* CONTACT */
+.contact-btn {
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    z-index: 9999;
+
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+}
+
+/* ABOUT */
+.about h2,
+.purpose h2,
+.services h2 {
+    font-family: "Italiana", serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about p,
+.purpose p,
+.services p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.about img,
+.purpose img,
+.services img {
+    width: 20%;
+    margin-top: 20px;
+}
+
+/* SERVICES */
+.service-block {
+    margin-bottom: 30px;
+}
+
+.service-block h3 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.read-more {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+    padding: 344px 20px;
+    background: black;
+    color: white;
+}
+
+.footer a {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
